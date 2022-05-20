@@ -1,0 +1,14 @@
+Steps to install Apache Hive
+Download the Apache Hive tar file.
+http://mirrors.estointernet.in/apache/hive/hive-1.2.2/
+DUnzip the downloaded tar file.
+tar -xvf apache-hive-1.2.2-bin.tar.gz  
+DOpen the bashrc file.
+$ sudo nano ~/.bashrc  
+DNow, provide the following HIVE_HOME path.
+export HIVE_HOME=/home/codegyani/apache-hive-1.2.2-bin  
+export PATH=$PATH:/home/codegyani/apache-hive-1.2.2-bin/bin  
+DUpdate the environment variable.
+$ source ~/.bashrc  
+DLet's start the hive by providing the following command.
+$ hive  
